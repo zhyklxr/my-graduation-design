@@ -1,0 +1,21 @@
+package unix;
+
+import java.util.*;
+
+public class Myclass {
+    public static void main(String args[]){
+        int i,b,sum;
+        Scanner a;
+        a=new Scanner(System.in);
+        b=a.nextInt();
+        sum=1;
+        if(b<=0){
+            System.out.print(b);
+        }
+        for(i=1;i<=b;i++){
+            sum=i*sum;
+        }
+            
+    }
+    
+}

@@ -1,0 +1,19 @@
+public class My {
+     public static void main(String args[]){
+          int i,a,b,c; 
+          a=4;
+          b=1;
+          a--;
+          if(a>0){
+              for(i=1;i<=a;i++){
+                  b=i*b;
+                  c=a;
+              }             
+          }
+          while(i>0){
+              i--;
+          }
+             
+     }
+    
+}
